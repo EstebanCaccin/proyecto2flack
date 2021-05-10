@@ -1,0 +1,63 @@
+main
+{
+    /* desplácese horizontalmente según sea necesario */
+    overflow-x: auto;
+
+    /* contenido central */
+    text-align: center;
+}
+
+main img
+{
+    /* restringir imágenes en pantallas pequeñas */
+    max-width: 100%;
+}
+
+/* Clases */
+
+main .form-control
+{
+    /* controles de formulario central */
+    display: inline-block;
+
+    /* anula el ancho del 100% de Bootstrap para los controles de formulario */
+    width: auto;
+}
+
+.custom-nav {
+    border: 0px;
+    padding: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.custom-window {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.container-channel {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20rem 100px;
+}
+
+/* ID */
+
+#message-box, #file-selector {
+    align-self: center;
+}
+
+#message-box {
+    margin: 30px 20px 10px 30px;
+}
+
+#chat {
+    padding: 20px;
+}
+
+body {
+    background-image: url("fondo1.jpg");
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
